@@ -93,40 +93,6 @@ Captured credentials are saved to:
 
 ---
 
-## Project Structure
-
-```
-zphisher/
-├── zphisher.sh          # Main script — entry point
-├── auth/
-│   ├── ip.txt           # Captured victim IP addresses
-│   └── usernames.dat    # Captured credentials
-├── scripts/             # PHP login page templates (35+ sites)
-├── Dockerfile           # Docker support
-├── run-docker.sh        # Run via Docker
-└── README.md
-```
-
----
-
-## Demo Screenshots
-
-| Step | Screenshot |
-|------|-----------|
-| Launch & file structure | `./zphisher.sh` running on Kali |
-| Target selection menu | 35+ platform options shown |
-| Cloudflared tunneling | PHP server + public URL generated |
-| Credential capture | Account, password, and IP saved |
-
----
-
-## Ethical Use Statement
-
-This project was implemented strictly for educational purposes as part of COSC-3411. This simulation was run in a controlled, isolated environment. Using phishing tools against real users without explicit written consent is illegal under computer crime laws in all jurisdictions.
-
----
-
-## Team
 
 **Beta Team — COSC-3411 | ITAP**
 
